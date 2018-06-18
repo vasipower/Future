@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Sample Suite">
+	<test name="testing">
+		<groups>
+
+			<parameter name="username" value="pawan klayan" />
+			<parameter name="password" value="fan" />
+			<run>
+				<include name="Sanity" />
+			</run>
+		</groups>
+		<classes>
+			<class name="TestNG_Test.TestNG_Groups" />
+		</classes>
+	</test>
+</suite>
