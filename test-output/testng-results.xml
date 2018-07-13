@@ -1,43 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="4" total="6" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Sample Suite" duration-ms="47" started-at="2018-06-18T10:59:07Z" finished-at="2018-06-18T10:59:07Z">
+  <suite name="Default suite" duration-ms="63" started-at="2018-07-12T05:03:46Z" finished-at="2018-07-12T05:03:46Z">
     <groups>
-      <group name="Sanity">
-        <method signature="TestNG_Groups.m1()[pri:0, instance:TestNG_Test.TestNG_Groups@13c27452]" name="m1" class="TestNG_Test.TestNG_Groups"/>
-        <method signature="TestNG_Groups.m3(java.lang.String, java.lang.String)[pri:0, instance:TestNG_Test.TestNG_Groups@13c27452]" name="m3" class="TestNG_Test.TestNG_Groups"/>
-      </group> <!-- Sanity -->
-      <group name="Smoke">
-        <method signature="TestNG_Groups.m1()[pri:0, instance:TestNG_Test.TestNG_Groups@13c27452]" name="m1" class="TestNG_Test.TestNG_Groups"/>
-      </group> <!-- Smoke -->
-      <group name="ABCD">
-        <method signature="TestNG_Groups.m3(java.lang.String, java.lang.String)[pri:0, instance:TestNG_Test.TestNG_Groups@13c27452]" name="m3" class="TestNG_Test.TestNG_Groups"/>
-      </group> <!-- ABCD -->
     </groups>
-    <test name="testing" duration-ms="47" started-at="2018-06-18T10:59:07Z" finished-at="2018-06-18T10:59:07Z">
-      <class name="TestNG_Test.TestNG_Groups">
-        <test-method status="PASS" signature="m1()[pri:0, instance:TestNG_Test.TestNG_Groups@13c27452]" name="m1" duration-ms="9" started-at="2018-06-18T10:59:07Z" finished-at="2018-06-18T10:59:07Z">
+    <test name="Default test" duration-ms="63" started-at="2018-07-12T05:03:46Z" finished-at="2018-07-12T05:03:46Z">
+      <class name="TestNG.ExampleForBeforeMethods">
+        <test-method status="PASS" signature="goBackToHomepage11()[pri:0, instance:TestNG.ExampleForBeforeMethods@31a5c39e]" name="goBackToHomepage11" is-config="true" duration-ms="20" started-at="2018-07-12T05:03:46Z" finished-at="2018-07-12T05:03:46Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m1 -->
-        <test-method status="PASS" signature="m3(java.lang.String, java.lang.String)[pri:0, instance:TestNG_Test.TestNG_Groups@13c27452]" name="m3" duration-ms="5" started-at="2018-06-18T10:59:07Z" finished-at="2018-06-18T10:59:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[pawan klayan]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[fan]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- goBackToHomepage11 -->
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:TestNG.ExampleForBeforeMethods@31a5c39e]" name="terminateBrowser" duration-ms="5" started-at="2018-07-12T05:03:46Z" finished-at="2018-07-12T05:03:46Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m3 -->
-      </class> <!-- TestNG_Test.TestNG_Groups -->
-    </test> <!-- testing -->
-  </suite> <!-- Sample Suite -->
+        </test-method> <!-- terminateBrowser -->
+        <test-method status="PASS" signature="verifyHomepageTitle()[pri:0, instance:TestNG.ExampleForBeforeMethods@31a5c39e]" name="verifyHomepageTitle" is-config="true" duration-ms="0" started-at="2018-07-12T05:03:46Z" finished-at="2018-07-12T05:03:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageTitle -->
+        <test-method status="PASS" signature="goBackToHomepage11q()[pri:0, instance:TestNG.ExampleForBeforeMethods@31a5c39e]" name="goBackToHomepage11q" is-config="true" duration-ms="1" started-at="2018-07-12T05:03:46Z" finished-at="2018-07-12T05:03:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goBackToHomepage11q -->
+        <test-method status="PASS" signature="terminateBrowser11()[pri:0, instance:TestNG.ExampleForBeforeMethods@31a5c39e]" name="terminateBrowser11" duration-ms="3" started-at="2018-07-12T05:03:46Z" finished-at="2018-07-12T05:03:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser11 -->
+        <test-method status="PASS" signature="verifyHomepageTitle()[pri:0, instance:TestNG.ExampleForBeforeMethods@31a5c39e]" name="verifyHomepageTitle" is-config="true" duration-ms="0" started-at="2018-07-12T05:03:46Z" finished-at="2018-07-12T05:03:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageTitle -->
+        <test-method status="PASS" signature="goBackToHomepage11q()[pri:0, instance:TestNG.ExampleForBeforeMethods@31a5c39e]" name="goBackToHomepage11q" is-config="true" duration-ms="0" started-at="2018-07-12T05:03:46Z" finished-at="2018-07-12T05:03:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goBackToHomepage11q -->
+        <test-method status="PASS" signature="goBackToHomepage11qs()[pri:0, instance:TestNG.ExampleForBeforeMethods@31a5c39e]" name="goBackToHomepage11qs" is-config="true" duration-ms="1" started-at="2018-07-12T05:03:46Z" finished-at="2018-07-12T05:03:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goBackToHomepage11qs -->
+      </class> <!-- TestNG.ExampleForBeforeMethods -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

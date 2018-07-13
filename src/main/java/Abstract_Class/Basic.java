@@ -34,7 +34,7 @@ public abstract class Basic {
 abstract class pspsk{
 	
 	
-	abstract  void m1();
+	 abstract    void m1();
 	abstract  void m3();
 
 }
@@ -46,10 +46,7 @@ abstract class pk1 extends pspsk{
 		
 		System.out.println("Basic");
 	}
-	
-	
-	
-}
+		}
 
  class pk extends pspsk{
 
@@ -62,9 +59,6 @@ abstract class pk1 extends pspsk{
 		System.out.println("Basic-1");
 		
 	}
-	
-	
-	
 }
 
 

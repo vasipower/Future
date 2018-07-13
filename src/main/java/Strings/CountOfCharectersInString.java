@@ -6,25 +6,41 @@ import java.util.Scanner;
 
 public class CountOfCharectersInString {
 
-	
-	
-	    public static void main(String[] args)
-	    {
-	        String str="abcda";
-	        char[]arr=str.toCharArray();
-	       
-	        Map <Character,String> occurence =new HashMap<Character,String>();
-	        for (int i = 0; i < arr.length; i++) {
-	        	 int count=0;
-				for (int j = 0; j < arr.length; j++) {
-					if (arr[i]==arr[j]) {
-						count++;
-						
-					}
-					
-				}
-				occurence.put(arr[i],count+ "");
+	public static void main(String[] args) {
+		
+		String str = "Java J2EE Java JSP J2EE";
+		String SS=str.replaceAll(" ", "");
+		System.out.println("poo   "+SS);
+		
+		//If only string no need above 
+		String str1 = "Vasista";
+		
+		char[] arr = SS.toCharArray();
+
+		Map<Character, Integer> map = new HashMap<Character, Integer>();
+
+		for (char c : arr) {
+
+			if (map.containsKey(c)) {
+
+				map.put(c, 1 + map.get(c));
+
+			} else {
+
+				map.put(c, 1);
 			}
-	        System.out.println(occurence);
-	    }
+
+		}
+		System.out.println(map);
+
 	}
+}
+
+// https://blog.ajduke.in/2013/04/28/setting-up-new-java-compiler-and-runtime-in-eclipse-ide/
+
+
+
+			/*same logic for bellow programs also
+			
+			OccurenceOfWordFromFile
+			OccurenceOfStringInASentence*/

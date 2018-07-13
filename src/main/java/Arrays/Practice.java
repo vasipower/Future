@@ -1,16 +1,23 @@
 package Arrays;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class Practice {
 public static void main(String[] args) {
 	
 
 	
 
-    int arr[] = {1,2,3,4,5};
+	String[] words = {"ace", "boom", "crew", "dog", "eon"};
+	//Use Arrays utility class
+	List wordList = Arrays.asList(words);
+	System.out.println(words);
 
-for(int i = 0 ; i<5; i++){ 
-        System.out.print(arr[i]);
-        
-}
+	Integer[] nums = {1,2,3,4};
+	//Use Arrays utility class
+	List numsList = Arrays.asList(nums);
+	System.out.println(nums);
+	
 }
 }
